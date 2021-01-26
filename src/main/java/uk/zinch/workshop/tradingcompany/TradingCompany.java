@@ -1,12 +1,12 @@
-package com.drongox.stockdetails;
+package uk.zinch.workshop.tradingcompany;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class TradingCompany {
-    private String id, description, ticker;
+  private String id, description, ticker;
 }
